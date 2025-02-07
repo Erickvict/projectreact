@@ -1,0 +1,139 @@
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: rgba(21, 190, 151, 0.5); 
+    border-radius: 50%;
+    width: 30px; 
+    height: 30px;
+}
+
+.carousel-inner{
+    width: 90%; 
+    max-width: 1200px; 
+    margin: 30px auto; 
+    border-radius: 20px;
+    overflow: hidden; 
+}
+
+img{
+    object-fit: contain; 
+    filter: brightness(1.1) contrast(1.2); 
+    width: 100%; 
+    height: 300px; 
+} */
+
+/* @media (max-width: 768px){
+    .carousel-inner {
+        width: 95%; 
+        margin: 20px auto;
+    }
+
+    img {
+        height: 300px; 
+    }
+}
+
+@media (max-width: 480px){
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon{
+        width: 20px; 
+        height: 20px;
+    }
+
+    img{
+        height: 200px; 
+    }
+} */
+
+
+.wrapper{
+    overflow: hidden;
+}
+
+.wrapper img{
+    width:100%;
+    height:100%;
+    transition:scale 400ms; 
+}
+
+.wrapper:hover img{
+    scale: 120%;
+}
+
+
+.phone{
+    border: 1px solid black;
+    background-color: rgb(140, 221, 235);
+    border-radius: 25%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.txt{
+    display: flex;
+    align-items: center;
+}
+
+.carmain{
+    border-radius: 15%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    height: 100%; 
+}
+
+.mainh{
+    border-radius: 10%;
+}
+
+
+
+.buy-now-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;  
+}
+
+.buy-now-button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+    text-decoration: none;
+}
+
+.carousel {
+    max-width: 600px; 
+    margin: 0 auto; 
+  }
+  
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(21, 190, 151, 0.5); 
+    border-radius: 50%;
+    width: 30px; 
+    height: 30px;
+}
+
+
+.carousel-img{
+    height: 300px; 
+    width: auto; 
+    object-fit: cover;
+ }  
+    
+
+img{
+    object-fit: contain; 
+    filter: brightness(1.1) contrast(1.2); 
+    width: 100%; 
+    height: 300px; 
+}   

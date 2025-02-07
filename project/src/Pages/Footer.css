@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Akronim&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville&display=swap');
+
+body {
+    font-family: 'Aclonica', sans-serif;
+  }
+
+
+  
+ 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.footer{
+  gap:0px;
+  background-color: #ffffff;
+}

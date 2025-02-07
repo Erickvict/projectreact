@@ -1,0 +1,35 @@
+.buy-now-button {
+    display: block;
+    width: 100%; 
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: #ffffff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    text-align: center; 
+    box-sizing: border-box; 
+    margin: 0; 
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer; 
+}
+
+
+.buy-now-button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05); 
+    text-decoration: none; 
+}
+
+.card-text {
+    text-align: center;
+    border-radius: 10px; 
+    background-color: #f0f0f0; 
+    color: #8f8f8f; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+}
+
+.price{
+    color:red
+}

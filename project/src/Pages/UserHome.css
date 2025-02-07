@@ -1,0 +1,39 @@
+.custom-wrapper {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(181, 255, 255); 
+  }
+  
+  .container {
+    flex: 0 0 auto;
+    text-align: center;
+    color: rgb(10, 8, 8);
+  }
+  
+  .center-screen {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-custom {
+    max-width: 60%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .image-col img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .image-col h4 {
+    text-align: center;
+    margin-top: 10px;
+    color: teal;
+  }
+  
