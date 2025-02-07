@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Akronim&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Libre+Baskerville&display=swap');
+
+body {
+    font-family: 'Aclonica', sans-serif;
+  }
+
+
+
+
+.navbar-nav{
+    margin:auto;
+}
+
+
+.navbar-nav .nav-link:hover {
+    background-color: lightgray; 
+    color: black; 
+    border-radius: 5px; 
+    transition: all 0.3s ease;
+  }
+  
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: lightgray; 
+    color: black; 
+    border-radius: 5px; 
+    transition: all 0.3s ease; 
+  }
+  
+
+ul li{
+  text-decoration: none;
+}
